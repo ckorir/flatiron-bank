@@ -27,6 +27,9 @@ table, td, th {
   border: rgba(0, 0, 0, 0.315) 1px solid;
 }
 
+th{
+  padding: 2em 0em;
+}
 table {
   width: 100%;
   border-collapse: collapse;
@@ -37,6 +40,22 @@ form{
   flex-direction: column;
 }
 
-th{
-  padding: 2em 0em;
+label{
+  padding: .3em 0em;
+}
+
+button{
+  margin: 1em 0em;
+  padding: .8em;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(6, 72, 134);
+  color: white;
+}
+
+input{
+  padding: .8em;
+  border-radius: 15px;
+  border: none;
+  margin-left: 3em;
 }
