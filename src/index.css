@@ -12,4 +12,13 @@ code {
   display: flex;
   flex-direction: column;
   padding: 5em;
+  align-items: center;
+}
+
+td{
+  padding: .5em 2em;
+}
+
+th{
+  padding: 2em 0em;
 }
