@@ -55,6 +55,7 @@ button{
   background-color: rgb(6, 72, 134);
   color: white;
   transition: all .5s ease;
+  width: 110%;
 }
 
 button:hover{
