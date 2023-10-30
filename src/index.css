@@ -57,5 +57,9 @@ input{
   padding: .8em;
   border-radius: 15px;
   border: none;
-  margin-left: 3em;
+  width: 100%;
+}
+
+.search{
+  width: 70%;
 }

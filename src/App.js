@@ -31,6 +31,7 @@ function App() {
         type="text"
         placeholder="Search transactions"
         onChange={(e) => setSearchTerm(e.target.value)}
+        className='search'
       />
       <TransactionForm onAddTransaction={addTransaction} />
       <TransactionTable transactions={filteredTransactions} />
