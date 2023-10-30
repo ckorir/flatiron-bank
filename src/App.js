@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import TransactionForm from './TransactionForm'; // Import the TransactionForm component
-import TransactionTable from './TransactionTable'; // Import the TransactionTable component
+import TransactionForm from './components/TransactionForm';
+import TransactionTable from './components/TransactionTable';
 
 function App() {
   const [transactions, setTransactions] = useState([]);
@@ -8,7 +8,7 @@ function App() {
 
   // Fetch data from the local JSON DB server
   useEffect(() => {
-    fetch('http://localhost:8001/transactions')
+    fetch('http://localhost:3000/transactions')
       .then((response) => response.json())
       .then((data) => setTransactions(data))
       .catch((error) => console.error('Error fetching data:', error));
@@ -25,7 +25,7 @@ function App() {
   );
 
   return (
-    <div>
+    <div className="app">
       <h1>Bank Transactions</h1>
       <input
         type="text"
