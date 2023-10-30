@@ -15,8 +15,6 @@ function App() {
   }, []);
 
   const addTransaction = (newTransaction) => {
-    // Add the new transaction to your state or perform any other necessary actions.
-    // You can update the transactions array in your state.
     setTransactions([...transactions, newTransaction]);
   };
 

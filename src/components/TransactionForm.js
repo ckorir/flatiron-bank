@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-
-
 function TransactionForm({ onAddTransaction }) {
   const [newTransaction, setNewTransaction] = useState({
     date: '',
@@ -18,7 +16,6 @@ function TransactionForm({ onAddTransaction }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add validation and error handling here if needed
     onAddTransaction(newTransaction);
     setNewTransaction({
       date: '',
