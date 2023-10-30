@@ -15,8 +15,26 @@ code {
   align-items: center;
 }
 
-td{
-  padding: .5em 2em;
+td, th{
+  padding: 1em 5em;
+}
+
+th{
+  background-color: rgb(6, 72, 134);
+  color: white;
+}
+table, td, th {
+  border: rgba(0, 0, 0, 0.315) 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
 }
 
 th{
