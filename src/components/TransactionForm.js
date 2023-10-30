@@ -3,7 +3,7 @@ function TransactionForm({ onAddTransaction }) {
   const [newTransaction, setNewTransaction] = useState({
     date: '',
     description: '',
-    amount: 0,
+    amount: '',
   });
 
   const handleInputChange = (e) => {
@@ -20,7 +20,7 @@ function TransactionForm({ onAddTransaction }) {
     setNewTransaction({
       date: '',
       description: '',
-      amount: 0,
+      amount: '',
     });
   };
 
