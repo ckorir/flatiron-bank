@@ -18,13 +18,7 @@ The project is built using the following technologies:
 
 ## Project Setup
 
-Start up the server using:
-
-```sh
-json-server --watch db.json
-```
-
-To run the project:
+Start up the server and run the project:
 
 ```sh
 npm install
